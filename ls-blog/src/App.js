@@ -1,18 +1,16 @@
 import "./App.css";
+import Navbar from "./Navbar";
+import Home from "./Home";
 
 function App() {
-  const judul = "Lat 02 Dynamic Values";
-  const jumlahLat = 30;
+  const judulLat = "Lat 03 Create Multiple Components";
 
   return (
     <div className="App">
+      <div className="judul-latihan">{judulLat}</div>
+      <Navbar />
       <div className="content">
-        <h1>{judul}</h1>
-
-        <p>Jumlah latihan sebanyak {jumlahLat} latihan.</p>
-        <p>Interpolasi 3 + 5 = {3 + 5}</p>
-        <p>Array: {[1, 2, 3, 4, 5]}</p>
-        <p>Random: {Math.random() * 10}</p>
+        <Home />
       </div>
     </div>
   );
