@@ -1,9 +1,10 @@
 import "./App.css";
 import Navbar from "./Navbar";
 import Home from "./Home";
+import "bootstrap/dist/css/bootstrap.css";
 
 function App() {
-  const judulLat = "Lat 04 Adding Styles";
+  const judulLat = "Lat 05 Adding CSS Frameworks";
 
   return (
     <div className="App">
