@@ -3,7 +3,7 @@ import Navbar from "./Navbar";
 import Home from "./Home";
 
 function App() {
-  const judulLat = "Lat 03 Create Multiple Components";
+  const judulLat = "Lat 04 Adding Styles";
 
   return (
     <div className="App">

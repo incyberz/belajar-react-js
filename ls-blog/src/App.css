@@ -1,3 +1,49 @@
+/* ============================= */
+/* COMPONENT CLASS */
+/* ============================= */
 .App {
   text-align: center;
 }
+
+
+
+.Navbar{
+  background: rgb(234, 243, 210);
+  padding: 10px 0;
+}
+
+.Navbar .links a{
+  display: inline-block;
+  margin-right: 10px;
+  text-decoration: none;
+  background: rgb(222, 243, 178);
+  border-radius: 8px;
+  padding: 5px 10px;
+}
+
+.Navbar .links a:hover{
+  background: rgb(243, 135, 216);
+}
+
+
+.Home{
+  background: rgb(255, 240, 242);
+  border: dashed 1px #eee;
+  padding: 10px;
+}
+
+
+/* ============================= */
+/* REGULAR CLASS */
+/* ============================= */
+.judul-latihan{
+  color: rgb(112, 17, 97);
+  background: rgb(157, 243, 158);
+  font-size: small;
+  text-align: center;
+}
+
+.content{
+  padding: 10px;
+}
+

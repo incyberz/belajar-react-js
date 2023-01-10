@@ -6,7 +6,8 @@
 # ============================================
 ## React Tutorial 01 Hello World React
 ## React Tutorial 02 Dynamic Values
-## React Tutorial 03 Create Multiple Component <current>
+## React Tutorial 03 Create Multiple Component
+## React Tutorial 04 Adding Styles <current>
 ## next...
 
 
