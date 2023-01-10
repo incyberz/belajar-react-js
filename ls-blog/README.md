@@ -4,7 +4,8 @@
 # By: Iin Sholihin #
 # Github: https://github.com/incyberz
 # ============================================
-## 01 Hello World React <current>
+## React Tutorial 01 Hello World React
+## React Tutorial 02 Dynamic Values <current>
 ## next...
 
 
