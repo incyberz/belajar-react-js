@@ -5,14 +5,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import swal from "sweetalert";
 
 function App() {
-  const judulLat = "Lat 06 Adding JS Frameworks";
-
-  swal({
-    title: "Good job!",
-    text: "SweetAlert telah terinstall dengan baik.",
-    icon: "success",
-    button: "Ok",
-  });
+  const judulLat = "Lat 07 Click Event Handler";
 
   return (
     <div className="App">

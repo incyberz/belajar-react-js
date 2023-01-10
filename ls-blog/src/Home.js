@@ -1,16 +1,37 @@
 const Home = () => {
+  const handleClick = () => {
+    alert("Anda menekan sebuah tombol.");
+  };
+
+  const alertNama = (nama) => {
+    alert(`Halo! nama saya ${nama}. \n\nSaya sedang belajar React.`);
+  };
+
   return (
     <nav className="Home">
       <h2>Homepage / Landing Page</h2>
       <p>Welcome to Luar Sekolah Blog Page... !!</p>
-      <code>Your alerts now are more sweet!!</code>
+      <code>Click Event Handler</code>
+      <div className="mt-2">
+        <button className="btn btn-primary" onClick={handleClick}>
+          Click me!!
+        </button>
+        <hr />
+        <button
+          className="btn btn-success"
+          onClick={() => {
+            alertNama("Iin Sholihin");
+          }}
+        >
+          Alert Nama
+        </button>
+      </div>
       <hr />
-      <p className="mt-2">
-        SweetAlert merupakan library JavaScript yang menyediakan berbagai
-        pilihan bagi kita untuk membuat berbagai jenis pop-up alert seperti
-        alert biasa, alert error, alert success, alert konfirmasi, dan
-        sebagainya. Penulisan kode SweetAlert sangatlah singkat seperti menulis
-        menggunakan fungsi bawaan JavaScript.
+      <p>
+        onclick adalah atribut HTML untuk menentukan aksi saat event klik pada
+        sebuah elemen. Atribut ini bisa diisi dengan nama fungsi atau ekspresi
+        javascript. Selain event onclick ada juga event lainnya seperti onchange
+        , onmouseover , onkeyup , onload , dll
       </p>
     </nav>
   );

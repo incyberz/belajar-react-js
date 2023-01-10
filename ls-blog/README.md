@@ -9,7 +9,8 @@
 ## React Tutorial 03 Create Multiple Component
 ## React Tutorial 04 Adding Styles
 ## React Tutorial 05 Adding CSS Frameworks
-## React Tutorial 06 Adding JS Frameworks <current>
+## React Tutorial 06 Adding JS Frameworks
+## React Tutorial 07 Click Event Handler <current>
 ## next...
 
 
