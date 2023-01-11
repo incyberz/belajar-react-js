@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.css";
 // import swal from "sweetalert";
 
 function App() {
-  const judulLat = "Lat 09 Outputing List Component";
+  const judulLat = "Lat 10 React Props (Passing Variable)";
 
   return (
     <div className="App">
