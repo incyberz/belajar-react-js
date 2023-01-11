@@ -83,5 +83,6 @@
 .pembuat-blog{
   color: rgb(87, 87, 87);
   font-style: italic;
-  margin-bottom: 15px;
+  font-size: small;
+  margin-bottom: 5px;
 }

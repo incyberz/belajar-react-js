@@ -23,20 +23,17 @@ const Home = () => {
     },
   ]);
 
-  let keyword = "react router";
+  const handleDelete = (id) => {
+    const newBlogs = blogs.filter((blog) => blog.id !== id);
+    setBlogs(newBlogs);
+  };
 
   return (
     <div className="Home">
-      <BlogList blogs={blogs} title="All Blog List" />
       <BlogList
-        blogs={blogs.filter((blog) => blog.author === "budi")}
-        title="Blog milik Budi"
-      />
-      <BlogList
-        blogs={blogs.filter(
-          (blog) => blog.judul.toLowerCase().search(keyword) >= 0
-        )}
-        title={`Blog tentang "${keyword}"`}
+        blogs={blogs}
+        title="All Blog List"
+        handleDelete={handleDelete}
       />
     </div>
   );
