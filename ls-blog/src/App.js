@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import swal from "sweetalert";
 
 function App() {
-  const judulLat = "Lat 07 Click Event Handler";
+  const judulLat = "Lat 08 Using State Hook";
 
   return (
     <div className="App">
