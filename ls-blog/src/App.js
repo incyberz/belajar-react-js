@@ -2,10 +2,10 @@ import "./App.css";
 import Navbar from "./Navbar";
 import Home from "./Home";
 import "bootstrap/dist/css/bootstrap.css";
-import swal from "sweetalert";
+// import swal from "sweetalert";
 
 function App() {
-  const judulLat = "Lat 08 Using State Hook";
+  const judulLat = "Lat 09 Outputing List Component";
 
   return (
     <div className="App">

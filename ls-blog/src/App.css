@@ -49,3 +49,29 @@
   padding: 10px;
 }
 
+/* ============================= */
+/* BLOG LIST */
+/* ============================= */
+.blog-list{
+  text-align: left;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.blog-item{
+  background: rgb(255, 255, 255);
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.judul-blog{
+  margin-top: 5px;
+  font-weight: bold;
+  color: rgb(37, 37, 37);
+}
+
+.pembuat-blog{
+  color: rgb(87, 87, 87);
+  font-style: italic;
+  margin-bottom: 15px;
+}
