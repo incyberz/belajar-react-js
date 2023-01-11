@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.css";
 // import swal from "sweetalert";
 
 function App() {
-  const judulLat = "Lat 12 Function as Props";
+  const judulLat = "Lat 13 useEffect Hook (Basic)";
 
   return (
     <div className="App">

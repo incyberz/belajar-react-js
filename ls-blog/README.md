@@ -14,8 +14,9 @@
 ## React Tutorial 08 Using State Hook
 ## React Tutorial 09 Outputing List Component
 ## React Tutorial 10 React Props (Passing Variable)
-## React Tutorial 11 Reusing Components (Props Filtering)
-## React Tutorial 12 Function as Props <current>
+## React Tutorial 11 Reusing Comp. (Props Filtering)
+## React Tutorial 12 Function as Props
+## React Tutorial 13 useEffect Hook (Basic) <current>
 ## next...
 
 
