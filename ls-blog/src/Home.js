@@ -23,12 +23,20 @@ const Home = () => {
     },
   ]);
 
+  let keyword = "react router";
+
   return (
     <div className="Home">
       <BlogList blogs={blogs} title="All Blog List" />
       <BlogList
-        blogs={blogs.filter((blog) => blog.author == "budi")}
+        blogs={blogs.filter((blog) => blog.author === "budi")}
         title="Blog milik Budi"
+      />
+      <BlogList
+        blogs={blogs.filter(
+          (blog) => blog.judul.toLowerCase().search(keyword) >= 0
+        )}
+        title={`Blog tentang "${keyword}"`}
       />
     </div>
   );

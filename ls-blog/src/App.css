@@ -63,6 +63,10 @@
   padding-bottom: 15px;
 }
 
+.blog-list h3{
+  color: maroon
+}
+
 .blog-item{
   background: rgb(255, 255, 255);
   padding: 8px;
@@ -73,7 +77,7 @@
 .judul-blog{
   margin-top: 5px;
   font-weight: bold;
-  color: rgb(37, 37, 37);
+  color: rgb(23, 117, 28);
 }
 
 .pembuat-blog{
