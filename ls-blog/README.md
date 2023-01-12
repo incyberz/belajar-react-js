@@ -25,7 +25,8 @@
 ## React Tutorial 18 Handling Fetch Error (Final)
 ## React Tutorial 19 Membuat Custom Hook
 ## React Tutorial 20 React Router
-## React Tutorial 21 Link Router <current>
+## React Tutorial 21 Link Router 
+## React Tutorial 22 Route Parameter <current>
 ## next...
 
 

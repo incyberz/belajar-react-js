@@ -2,11 +2,12 @@ import "./App.css";
 import Navbar from "./Navbar";
 import Home from "./Home";
 import Create from "./Create";
+import BlogDetail from "./BlogDetail";
 import "bootstrap/dist/css/bootstrap.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
-  const judulLat = "Lat 21 Link Router ";
+  const judulLat = "React Tutorial 22 Route Parameter";
 
   return (
     <Router>
@@ -16,7 +17,8 @@ function App() {
         <div className="content">
           <Switch>
             <Route exact path="/" component={Home} />
-            <Route path="/create" component={Create} />
+            <Route exact path="/create" component={Create} />
+            <Route path="/blogs/:id" component={BlogDetail} />
           </Switch>
         </div>
       </div>
