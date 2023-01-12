@@ -16,7 +16,8 @@
 ## React Tutorial 10 React Props (Passing Variable)
 ## React Tutorial 11 Reusing Comp. (Props Filtering)
 ## React Tutorial 12 Function as Props
-## React Tutorial 13 useEffect Hook (Basic) <current>
+## React Tutorial 13 useEffect Hook (Basic)
+## React Tutorial 14 useEffect Dependencies <current>
 ## next...
 
 

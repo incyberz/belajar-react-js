@@ -28,13 +28,21 @@ const Home = () => {
     setBlogs(newBlogs);
   };
 
+  const [nama, setNama] = useState("Ahmad");
+
   useEffect(() => {
     console.log("useEffect berjalan");
     console.log(blogs);
-  });
+  }, [nama]);
 
   return (
     <div className="Home">
+      <p>
+        Penerapan useEffect dengan Dependencies pada variabel "nama":
+        <br />
+        nama: {nama} <button onClick={() => setNama("Budi")}>Ubah Nama</button>
+      </p>
+      <hr />
       <BlogList
         blogs={blogs}
         title="All Blog List"
