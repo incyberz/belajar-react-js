@@ -3,6 +3,7 @@ import BlogList from "./BlogList";
 
 const Home = () => {
   const [blogs, setBlogs] = useState([]);
+  const [isPending, setIsPending] = useState(true);
 
   const handleDelete = (id) => {
     const newBlogs = blogs.filter((blog) => blog.id !== id);
@@ -10,19 +11,20 @@ const Home = () => {
   };
 
   useEffect(() => {
-    console.log("useEffect berjalan");
-    fetch("http://localhost:8000/blogs")
-      .then((res) => res.json())
-      .then((data) => {
-        console.log(data);
-        setBlogs(data);
-      });
+    setTimeout(() => {
+      fetch("http://localhost:8000/blogs")
+        .then((res) => res.json())
+        .then((data) => {
+          console.log(data);
+          setBlogs(data);
+          setIsPending(false);
+        });
+    }, 1000);
   }, []);
 
   return (
     <div className="Home">
-      <p>Hasil Fetching Data dari JSON Server</p>
-      <hr />
+      {isPending && <div>Loading blogs data...</div>}
       {blogs && <BlogList blogs={blogs} title="All Blog List" />}
     </div>
   );

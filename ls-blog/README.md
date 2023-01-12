@@ -19,7 +19,8 @@
 ## React Tutorial 13 useEffect Hook (Basic)
 ## React Tutorial 14 useEffect Dependencies
 ## React Tutorial 15 Using JSON Server
-## React Tutorial 16 Fetching Data with useEffect <current>
+## React Tutorial 16 Fetching Data with useEffect
+## React Tutorial 17 Conditional Loading Message <current>
 ## next...
 
 

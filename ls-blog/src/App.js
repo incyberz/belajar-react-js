@@ -4,7 +4,7 @@ import Home from "./Home";
 import "bootstrap/dist/css/bootstrap.css";
 
 function App() {
-  const judulLat = "Lat 16 Fetching Data with useEffect";
+  const judulLat = "Lat 17 Conditional Loading Message";
 
   return (
     <div className="App">
