@@ -4,7 +4,7 @@ import Home from "./Home";
 import "bootstrap/dist/css/bootstrap.css";
 
 function App() {
-  const judulLat = "Lat 17 Conditional Loading Message";
+  const judulLat = "Lat 18 Handling Fetch Error";
 
   return (
     <div className="App">

@@ -4,6 +4,7 @@ import BlogList from "./BlogList";
 const Home = () => {
   const [blogs, setBlogs] = useState([]);
   const [isPending, setIsPending] = useState(true);
+  const apiAddress = "http://localhost:8000/blogss";
 
   const handleDelete = (id) => {
     const newBlogs = blogs.filter((blog) => blog.id !== id);
@@ -12,13 +13,19 @@ const Home = () => {
 
   useEffect(() => {
     setTimeout(() => {
-      fetch("http://localhost:8000/blogs")
-        .then((res) => res.json())
+      fetch(apiAddress)
+        .then((res) => {
+          if (!res.ok) {
+            throw Error(`Tidak bisa mengakses resourcess pada ${apiAddress}`);
+          }
+          return res.json();
+        })
         .then((data) => {
           console.log(data);
           setBlogs(data);
           setIsPending(false);
-        });
+        })
+        .catch((err) => console.log(err.message));
     }, 1000);
   }, []);
 
