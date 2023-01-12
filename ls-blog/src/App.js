@@ -1,19 +1,17 @@
 import "./App.css";
 import Navbar from "./Navbar";
-// import Home from "./Home";
-import Readme from "./Readme";
+import Home from "./Home";
 import "bootstrap/dist/css/bootstrap.css";
-// import swal from "sweetalert";
 
 function App() {
-  const judulLat = "Lat 15 Using JSON Server (Fake Backend API)";
+  const judulLat = "Lat 16 Fetching Data with useEffect";
 
   return (
     <div className="App">
       <div className="judul-latihan">{judulLat}</div>
       <Navbar />
       <div className="content">
-        <Readme />
+        <Home />
       </div>
     </div>
   );

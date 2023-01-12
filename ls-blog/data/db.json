@@ -1,0 +1,22 @@
+{
+  "blogs":[
+    {
+      "judul":"Hello World React!",
+      "isi":"ReactJS atau React adalah library JavaScript populer buatan Facebook yang digunakan dalam proses pengembangan aplikasi mobile dan web. React berisi kumpulan snippet kode JavaScript (disebut ‘komponen’) yang bisa digunakan berulang kali untuk mendesain antarmuka pengguna.",
+      "author":"ahmad",
+      "id":1
+    },
+    {
+      "judul":"Belajar React Router",
+      "isi":"React Router adalah sistem perpustakaan standar yang dibangun di atas React dan digunakan untuk membuat perutean di aplikasi React menggunakan Paket React Router. Ini menyediakan URL sinkron di browser dengan data yang akan ditampilkan di halaman web. Ini memelihara struktur standar dan perilaku aplikasi dan terutama digunakan untuk mengembangkan aplikasi web satu halaman.",
+      "author":"budi",
+      "id":2
+    },
+    {
+      "judul":"Belajar JSON Server",
+      "isi":"JSON Server adalah proyek sederhana yang membantu Anda menyiapkan REST API dengan operasi CRUD dengan sangat cepat. Situs web proyek dapat ditemukan di https://github.com/typicode/json-server.",
+      "author":"ahmad",
+      "id":3
+    }
+  ]
+}
