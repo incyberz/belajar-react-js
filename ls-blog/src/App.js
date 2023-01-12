@@ -4,7 +4,7 @@ import Home from "./Home";
 import "bootstrap/dist/css/bootstrap.css";
 
 function App() {
-  const judulLat = "Lat 18 Handling Fetch Error (Final)";
+  const judulLat = "Lat 19 Membuat Custom Hook";
 
   return (
     <div className="App">
