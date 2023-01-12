@@ -26,7 +26,8 @@
 ## React Tutorial 19 Membuat Custom Hook
 ## React Tutorial 20 React Router
 ## React Tutorial 21 Link Router 
-## React Tutorial 22 Route Parameter <current>
+## React Tutorial 22 Route Parameter
+## React Tutorial 23 Reusing Custom Fetch <current>
 ## next...
 
 
