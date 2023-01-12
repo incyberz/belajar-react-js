@@ -7,7 +7,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
-  const judulLat = "React Tutorial 23 Reusing Custom Fetch";
+  const judulLat = "React Tutorial 24 Controlled Input Form";
 
   return (
     <Router>

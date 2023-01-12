@@ -26,14 +26,15 @@
 }
 
 
-.Home, .BlogDetail{
+.Home, .BlogDetail, .Create{
   background: rgb(255, 240, 242);
   border: dashed 1px #eee;
+  border-radius: 8px;
   padding: 10px;
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 
@@ -91,4 +92,25 @@
 
 .isi-blog{
   text-align: justify;
+}
+
+
+
+/* ============================= */
+/* CREATE BLOG */
+/* ============================= */
+.Create{
+  text-align: left;
+}
+
+.Create .form-group{
+  margin: 15px 0;
+}
+
+.Create .form-control{
+  margin: 5px 0;
+}
+
+.Create .btn-block{
+  width: 100%;
 }

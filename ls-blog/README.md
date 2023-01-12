@@ -27,7 +27,8 @@
 ## React Tutorial 20 React Router
 ## React Tutorial 21 Link Router 
 ## React Tutorial 22 Route Parameter
-## React Tutorial 23 Reusing Custom Fetch <current>
+## React Tutorial 23 Reusing Custom Fetch
+## React Tutorial 24 Controlled Input Form <current>
 ## next...
 
 
