@@ -5,10 +5,19 @@ const Create = () => {
   const [isi, setIsi] = useState(null);
   const [author, setAuthor] = useState("ahmad");
 
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const blog = { judul, isi, author };
+    console.log(blog);
+    alert(
+      `Anda mengklik Submit.\n\nJudul: ${blog.judul}\nisi: ${blog.isi}\nauthor: ${blog.author}\n`
+    );
+  };
+
   return (
     <div className="Create">
       <h3>Create a Blog</h3>
-      <form>
+      <form onSubmit={handleSubmit}>
         <div className="form-group">
           <label>Judul</label>
           <input
@@ -17,7 +26,7 @@ const Create = () => {
             value={judul}
             onChange={(e) => setJudul(e.target.value)}
             required
-            minLength={10}
+            minLength={5}
             maxLength={100}
           />
         </div>
@@ -47,9 +56,6 @@ const Create = () => {
         <div className="form-group">
           <button className="btn btn-primary btn-block">Submit</button>
         </div>
-        <p>{judul}</p>
-        <p>{isi}</p>
-        <p>{author}</p>
       </form>
     </div>
   );
