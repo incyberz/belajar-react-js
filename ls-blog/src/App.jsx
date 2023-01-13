@@ -3,11 +3,12 @@ import Navbar from "./Navbar";
 import Home from "./Home";
 import Create from "./Create";
 import BlogDetail from "./BlogDetail";
+import NotFound from "./NotFound";
 import "bootstrap/dist/css/bootstrap.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
-  const judulLat = "React Tutorial 28 Deleting a Blog";
+  const judulLat = "React Tutorial 29 Not Found Page";
 
   return (
     <Router>
@@ -19,6 +20,7 @@ function App() {
             <Route exact path="/" component={Home} />
             <Route exact path="/create" component={Create} />
             <Route path="/blogs/:id" component={BlogDetail} />
+            <Route path="*" component={NotFound} />
           </Switch>
         </div>
       </div>
