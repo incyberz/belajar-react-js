@@ -7,7 +7,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
-  const judulLat = "React Tutorial 25 Submit Event";
+  const judulLat = "React Tutorial 26 Make a POST request";
 
   return (
     <Router>

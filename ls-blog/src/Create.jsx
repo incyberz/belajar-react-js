@@ -4,14 +4,26 @@ const Create = () => {
   const [judul, setJudul] = useState(null);
   const [isi, setIsi] = useState(null);
   const [author, setAuthor] = useState("ahmad");
+  const [isPending, setIsPending] = useState(false);
 
   const handleSubmit = (e) => {
     e.preventDefault();
     const blog = { judul, isi, author };
-    console.log(blog);
-    alert(
-      `Anda mengklik Submit.\n\nJudul: ${blog.judul}\nisi: ${blog.isi}\nauthor: ${blog.author}\n`
-    );
+    // alert(
+    //   `Anda mengklik Submit.\n\nJudul: ${blog.judul}\nisi: ${blog.isi}\nauthor: ${blog.author}\n`
+    // );
+
+    setIsPending(true);
+
+    fetch("http://localhost:8000/blogs", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(blog),
+    }).then(() => {
+      console.log("Blog baru berhasil ditambahkan.");
+      alert("Blog baru berhasil ditambahkan.");
+      setIsPending(false);
+    });
   };
 
   return (
@@ -54,7 +66,14 @@ const Create = () => {
           </select>
         </div>
         <div className="form-group">
-          <button className="btn btn-primary btn-block">Submit</button>
+          {!isPending && (
+            <button className="btn btn-primary btn-block">Add</button>
+          )}
+          {isPending && (
+            <button className="btn btn-secondary btn-block" disabled>
+              Adding blog...
+            </button>
+          )}
         </div>
       </form>
     </div>
