@@ -30,7 +30,8 @@
 ## React Tutorial 23 Reusing Custom Fetch
 ## React Tutorial 24 Controlled Input Form
 ## React Tutorial 25 Submit Event
-## React Tutorial 26 Make a POST request <current>
+## React Tutorial 26 Make a POST request 
+## React Tutorial 27 Programatic Redirect <current>
 ## next...
 
 

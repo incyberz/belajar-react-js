@@ -1,17 +1,16 @@
 import { useState } from "react";
+import { useHistory } from "react-router-dom";
 
 const Create = () => {
   const [judul, setJudul] = useState(null);
   const [isi, setIsi] = useState(null);
   const [author, setAuthor] = useState("ahmad");
   const [isPending, setIsPending] = useState(false);
+  const history = useHistory();
 
   const handleSubmit = (e) => {
     e.preventDefault();
     const blog = { judul, isi, author };
-    // alert(
-    //   `Anda mengklik Submit.\n\nJudul: ${blog.judul}\nisi: ${blog.isi}\nauthor: ${blog.author}\n`
-    // );
 
     setIsPending(true);
 
@@ -23,6 +22,8 @@ const Create = () => {
       console.log("Blog baru berhasil ditambahkan.");
       alert("Blog baru berhasil ditambahkan.");
       setIsPending(false);
+      // history.go(-1)
+      history.push("/");
     });
   };
 
