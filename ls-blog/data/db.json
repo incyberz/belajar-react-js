@@ -17,30 +17,6 @@
       "isi": "JSON Server adalah proyek sederhana yang membantu Anda menyiapkan REST API dengan operasi CRUD dengan sangat cepat. Situs web proyek dapat ditemukan di https://github.com/typicode/json-server.",
       "author": "ahmad",
       "id": 3
-    },
-    {
-      "judul": "asdasdasdas",
-      "isi": "fasdasdasdasd",
-      "author": "ahmad",
-      "id": 4
-    },
-    {
-      "judul": "zzzzzz",
-      "isi": "zzzzzzzzzzzzzz",
-      "author": "budi",
-      "id": 5
-    },
-    {
-      "judul": "ccccc",
-      "isi": "cccccccccccccccc",
-      "author": "charlie",
-      "id": 6
-    },
-    {
-      "judul": "gggggg",
-      "isi": "gggggggggggggg",
-      "author": "budi",
-      "id": 7
     }
   ]
 }

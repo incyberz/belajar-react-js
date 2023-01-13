@@ -7,7 +7,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
-  const judulLat = "React Tutorial 27 Programatic Redirect";
+  const judulLat = "React Tutorial 28 Deleting a Blog";
 
   return (
     <Router>
